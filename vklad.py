@@ -6,8 +6,8 @@ class SuperVklad(Client):
         super().__init__(name, summa, percent, period)
 
     def vklad(self):
-        if self.summa > 500000:
-            total = (self.summa * self.percent) / 100 + self.summa
+        if self.summa > 510000:
+            total = (self.summa * self.percent) / 110 + self.summa
             return f"Предложение от банка: Бонусный вклад. \nИтоговая сумма: {total}"
         else:
             total = super().vklad()
