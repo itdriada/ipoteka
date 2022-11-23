@@ -3,10 +3,10 @@ from vklad import SuperVklad, CapitalVklad
 
 if __name__ == '__main__':
 
-    ivan = Client('Иван Петров', 500000, 8, 12)
-    elena = SuperVklad('Елена Петрова', 700000, 9, 12)
-    ekaterina = SuperVklad('Екатерна Долгова', 66000, 8, 16)
-    sergey = CapitalVklad('Сергей Иванов', 650000, 12, 14)
+    ivan = Client('Иван Петров', 520000, 8, 12)
+    elena = SuperVklad('Елена Петрова', 720000, 9, 12)
+    ekaterina = SuperVklad('Екатерна Долгова', 61000, 8, 16)
+    sergey = CapitalVklad('Сергей Иванов', 150000, 12, 14)
 
     print(ivan)
     print(ivan.vklad(), '\n')
